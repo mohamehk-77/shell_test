@@ -1,0 +1,56 @@
+.TH SIMPLE_SHELL 16 "october 2023" "Version 1.0" "User Commands"
+
+.SH NAME
+Shell - Write a simple UNIX command interpreter.
+
+
+.SH SYNOPSIS
+.B Shell
+[.I A UNIX command line interpreter ]
+[.I command lines with arguments ]
+[.I supporting non-interactive mode ]
+[.I Implement the exit built-in, that exits the shell ]
+[.I mplement the env built-in, that prints the current environment ]
+q
+.SH DESCRIPTION1
+The
+.B Simple_Shell
+A simple UNIX command interpreter.designed and implemented the original Unix operating system
+
+.SH OPTIONS
+.TP
+.BR interactive mode
+our shell program works in intractive mode and non-interactive
+.TP
+.BR arguments...
+command lines with arguments
+
+.SH EXAMPLES
+Disply a simple example: "#cisfun$"
+.B "#cisfun$ /bin/ls -l"
+.PP
+.B Simple_Shell
+"A simple UNIX command interpreter\n"
+
+.SH SEE ALSO
+.BR ./shell()
+
+.SH AUTHOR
+Mohamed kamal & Mohamed Mosa 
+
+.SH REPORTING BUGS
+Please report bugs to: 
+mmohammedabdelrady@gmail.com
+kmido9729@gmail.com
+.SH COPYRIGHT
+Copyright © 2023 Your Company. This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+.SH NOTES
+This man page was created for demonstration purposes.
+
+.SH VERSION
+This is version 1.0 of shell.
+
+.SH DATE
+October 2023
